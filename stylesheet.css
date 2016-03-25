@@ -28,16 +28,7 @@ li a.active {
     background-color: #4CAF50;
 }
 
-#footer {
-   /*position:absolute;
-   bottom:0;*/
-   float:bottom;
-   width:100%;
-   height:30px;   /* Height of the footer */
-   background: #f3f3f3;
-   text-align: center;
-   padding-top: 10px;
-}
+
 #txtbox
     {
      font-size:14pt;
@@ -51,4 +42,29 @@ figure {
     float: left;
     margin: 20;
     padding:20;
+}
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /* Height of the footer */
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer */
+   background:#6cf;
 }
